@@ -1,0 +1,25 @@
+spring:
+  data:
+    mongodb:
+      username: user
+      password: user
+      host: localhost
+      port: 27018
+      database: dashboard
+      authentication-database: admin
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
+
+
+
+
+
+
+
